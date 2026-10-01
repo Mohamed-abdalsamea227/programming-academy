@@ -1,0 +1,13 @@
+/* auth styles loaded */
+.auth-modal{max-width:420px}
+.auth-tabs{display:flex;border-bottom:1px solid var(--border)}
+.auth-tab{flex:1;padding:14px;border:none;background:transparent;color:var(--text-muted);font-family:inherit;font-weight:700;cursor:pointer;border-bottom:2px solid transparent}
+.auth-tab.active{color:var(--primary);border-bottom-color:var(--primary)}
+.auth-form{padding:20px 24px 24px}
+.auth-form .form-group{margin-bottom:12px}
+.auth-form label{display:block;font-weight:600;margin-bottom:5px;font-size:0.88rem}
+.auth-form input,.auth-form textarea{width:100%;padding:11px 12px;border:1px solid var(--border);border-radius:10px;background:var(--bg);color:var(--text);font-family:inherit;outline:none}
+.auth-form input:focus,.auth-form textarea:focus{border-color:var(--primary)}
+.auth-error{color:var(--danger);font-size:0.85rem;font-weight:600;min-height:1.1em;margin-bottom:6px}
+.auth-divider{display:flex;align-items:center;gap:12px;margin:14px 0;color:var(--text-muted);font-size:0.85rem}
+.auth-divider::before,.auth-divider::after{content:"";flex:1;height:1px;background:var(--border)}
